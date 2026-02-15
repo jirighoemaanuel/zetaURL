@@ -1,10 +1,12 @@
-import NavBar from "./components/NavBar";
+import NavBar from './components/NavBar';
+import Hero from './components/Hero';
 
 function App() {
   return (
     <>
       <div className=''>
         <NavBar></NavBar>
+        <Hero></Hero>
       </div>
     </>
   );
